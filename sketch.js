@@ -131,7 +131,7 @@ function draw() {
      box19.display();
      box19.score();
      box20.display();
-     box19.score();
+     box20.score();
      box21.display();
      box21.score();
      // Level - 4
