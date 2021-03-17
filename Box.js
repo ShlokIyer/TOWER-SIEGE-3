@@ -12,7 +12,7 @@ class Box{
       World.add(world, this.body);
     }
     score(){
-        if (this.Visibility < 0 && this.Visibility > - 105){
+        if (this.visibility < 0 && this.visibility > - 105){
           score++;
       }
     }
@@ -33,7 +33,7 @@ class Box{
         World.remove(world,this.body);
         push();
         this.visibility = this.visibility - 256;
-        tint(255,this.Visiblity);
+        tint(255,this.visiblity);
         pop();
       }
     }
